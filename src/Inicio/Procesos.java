@@ -90,7 +90,7 @@ private void imprimirInformacion() {
     menuImprimir+="2. Listar Empleados Eventuales\n";
     menuImprimir+="3. Listar Empleados Por Planilla\n";
     menuImprimir+="4. Listar Medicos\n";
-    menuImprimir+="Ingrese una opción\n";
+    menuImprimir+="Ingrese una opción\n"; 
 
     System.out.println("******************************************");
     int opcion=Integer.parseInt(JOptionPane.showInputDialog(menuImprimir));
