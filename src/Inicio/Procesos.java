@@ -29,7 +29,7 @@ public class Procesos {
             switch (opcion) {
                 case 1:registrarPaciente(); break;
                 case 2:registrarEmpleado();break;
-                case 3: registarCitaMedica(); break;
+                case 3:registarCitaMedica(); break;
                 case 4: imprimirInformacion(); break;
                 case 5: System.out.println("El sistema ha terminado!"); break;
                 default:System.out.println("No existe el código o la entrada es inválida, verifique nuevamente."); break;
